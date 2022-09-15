@@ -23,3 +23,5 @@
 * `git commit --amend` change the commit msg of last commit in case of typo
 * `git push` fails in this case, because history on origin is different
 * `git push --force-with-lease` force push but notify other ppl working on the branch
+
+* `git push -u origin branch` push local branch thats never been pushed to origin
