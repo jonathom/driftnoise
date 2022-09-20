@@ -28,3 +28,6 @@
 
 ### grep
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
+
+### geojson land mask
+* simplify with `sf_simplify`, cut decimal points with `ogr2ogr -f GeoJSON -lco COORDINATE_PRECISION=4 less_magic.geojson magic.geojson`
