@@ -25,3 +25,6 @@
 * `git push --force-with-lease` force push but notify other ppl working on the branch
 
 * `git push -u origin branch` push local branch thats never been pushed to origin
+
+### grep
+* surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
