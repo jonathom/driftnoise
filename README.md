@@ -26,6 +26,14 @@
 
 * `git push -u origin branch` push local branch thats never been pushed to origin
 
+If a rebase goes wrong and needs to be reset
+* `git rebase --abort`
+* `git reset --hard origin/new_greenland`
+
+If merging conflicts cant be resolved with git
+* sometimes its good to use tig for an overview (enter/q)
+* during the merge conflict the arctic.json was overwritten again, then it worked (just dropped unneccesary commits til last one, led to merge error, overwrite json, git add json-datei, git rebase --continue and that worked
+
 ### grep
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
 
