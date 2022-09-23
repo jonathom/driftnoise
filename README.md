@@ -34,6 +34,8 @@ If merging conflicts cant be resolved with git
 * sometimes its good to use tig for an overview (enter/q)
 * during the merge conflict the arctic.json was overwritten again, then it worked (just dropped unneccesary commits til last one, led to merge error, overwrite json, git add json-datei, git rebase --continue and that worked
 
+* to push branch that only exists locally mention its name `git push origin <local_branch>`
+
 ### grep
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
 
