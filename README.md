@@ -36,6 +36,16 @@ If merging conflicts cant be resolved with git
 
 * to push branch that only exists locally mention its name `git push origin <local_branch>`
 
+* `branch -m b1 b2` to move branch 1 to branch 2 (e.g. delete branch 2 beforehand)
+* `git log -S 'bla'` look for commits that had something to do with 'bla', like a specific blame
+
+### vim
+
+* dd zeile löschen
+* . kommando wiederholen
+* / suchen
+* n suche wiederholen
+
 ### grep
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
 
