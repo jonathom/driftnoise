@@ -36,8 +36,9 @@ If merging conflicts cant be resolved with git
 
 * to push branch that only exists locally mention its name `git push origin <local_branch>`
 
-* `branch -m b1 b2` to move branch 1 to branch 2 (e.g. delete branch 2 beforehand)
+* `branch -m b1 b2` to move branch 1 to branch 2 (e.g. delete branch 2 beforehand, `git branch -D <branch>`)
 * `git log -S 'bla'` look for commits that had something to do with 'bla', like a specific blame
+* `git config --global --edit`
 
 ### vim
 
