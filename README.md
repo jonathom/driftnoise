@@ -44,10 +44,12 @@ If merging conflicts cant be resolved with git
 
 ### vim
 
-* dd zeile löschen
+* `dd` zeile ausschneiden
+* `p` zeile unter cursor einfügen
+* `cw` change word -> direkt insert mode
 * . kommando wiederholen
 * / suchen
-* n suche wiederholen
+* `n` suche wiederholen
 
 ### grep
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
@@ -60,3 +62,14 @@ If merging conflicts cant be resolved with git
 
 ### debugging
 * zb mit `gdb --args` ..und dann der function call, danach `run` eingeben
+
+### python
+
+* nice error checking: 
+```
+with self.assertRaises(FileNotFoundError):
+    check_and_return_grid_filename(os.path.join(self.tmpdir.name, "NotExistingDirectory123"))
+```
+* `shutil.rmtree(dir_path)` instead of os.rmdir
+* `open(path_to_weights, 'w').close()`
+* raising errors usually `raise ErrName('some text')` but nicer: `import errno` and `raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), f'{file}. <message>')`
