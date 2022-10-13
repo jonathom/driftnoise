@@ -40,6 +40,8 @@ If merging conflicts cant be resolved with git
 * `git log -S 'bla'` look for commits that had something to do with 'bla', like a specific blame
 * `git config --global --edit`
 
+* `git pull --rebase` when rebased online and changes can'T be fast-forwarded
+
 ### vim
 
 * dd zeile löschen
