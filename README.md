@@ -42,6 +42,8 @@ If merging conflicts cant be resolved with git
 
 * `git pull --rebase` when rebased online and changes can'T be fast-forwarded
 
+* `git log -L 15,23:filename.txt` means "trace the evolution of lines 15 to 23 in the file named filename.txt".
+
 ### vim
 
 * `dd` zeile ausschneiden
