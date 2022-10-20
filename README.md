@@ -75,3 +75,8 @@ with self.assertRaises(FileNotFoundError):
 * `shutil.rmtree(dir_path)` instead of os.rmdir
 * `open(path_to_weights, 'w').close()`
 * raising errors usually `raise ErrName('some text')` but nicer: `import errno` and `raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), f'{file}. <message>')`
+
+### terminal colors
+* edit `~/.bashrc`
+* show branch name [https://www.matteomattei.com/show-git-branch-name-on-shell-prompt/](https://www.matteomattei.com/show-git-branch-name-on-shell-prompt/)
+* colors [https://misc.flogisoft.com/bash/tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
