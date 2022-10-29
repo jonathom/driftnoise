@@ -52,6 +52,7 @@ If merging conflicts cant be resolved with git
 * . kommando wiederholen
 * / suchen
 * `n` suche wiederholen
+* [http://vimcasts.org/episodes/](http://vimcasts.org/episodes/]
 
 ### grep
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
@@ -66,6 +67,8 @@ If merging conflicts cant be resolved with git
 * zb mit `gdb --args` ..und dann der function call, danach `run` eingeben
 
 ### python
+
+* pep8 [https://peps.python.org/pep-0008/](https://peps.python.org/pep-0008/)
 
 * nice error checking: 
 ```
