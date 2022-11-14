@@ -55,6 +55,7 @@ If merging conflicts cant be resolved with git
 * [http://vimcasts.org/episodes/](http://vimcasts.org/episodes/]
 
 ### grep
+* `grep -r "term" ./directory`
 * surpress error msg when using `grep`: `grep -r "priima" / 2>&-`
 
 ### pattern matching
@@ -78,6 +79,9 @@ with self.assertRaises(FileNotFoundError):
 * `shutil.rmtree(dir_path)` instead of os.rmdir
 * `open(path_to_weights, 'w').close()`
 * raising errors usually `raise ErrName('some text')` but nicer: `import errno` and `raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), f'{file}. <message>')`
+
+### netcdf
+* `ncdump -h <file>` (oder `-c`): read header/variable info from netcdf file
 
 ### terminal colors
 * edit `~/.bashrc`
