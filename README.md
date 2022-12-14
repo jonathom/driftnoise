@@ -79,6 +79,7 @@ with self.assertRaises(FileNotFoundError):
 * `shutil.rmtree(dir_path)` instead of os.rmdir
 * `open(path_to_weights, 'w').close()`
 * raising errors usually `raise ErrName('some text')` but nicer: `import errno` and `raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), f'{file}. <message>')`
+* unpacking lists: `[x for l in list for x in l]``
 
 ### netcdf
 * `ncdump -h <file>` (oder `-c`): read header/variable info from netcdf file
