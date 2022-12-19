@@ -44,6 +44,7 @@ If merging conflicts cant be resolved with git
 
 * `git log -L 15,23:filename.txt` means "trace the evolution of lines 15 to 23 in the file named filename.txt".
 * `git add -p` to add single chunks of change
+* `git diff --cached` view staged changes
 
 ### vim
 
